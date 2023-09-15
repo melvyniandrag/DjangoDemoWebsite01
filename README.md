@@ -30,7 +30,20 @@ $ unzip master.zip
 $ cd DjangoDemoWebsite01
 $ mv demowebsite /var/www
 ```
-Then add your IP Address to the allowed hosts in your settings file.
+Then add your IP Address to the allowed hosts in your `/var/www/demowebsite/demowebsite/settings.py` file.
+
+The ALLOWED_HOSTS should now look like this:
+
+```
+ALLOWED_HOSTS = [
+    'your.ip.address.here',
+    'localhost'
+]
+```
+
+BE CAREFUL with the above thing! Make sure there are 4 spaces before the ip address and 4 spaces before localhost.
+Make sure to put a comma as shown above. Do not make any other changes to the file!!
+
 
 ### Create a virtual env and install with pip3
 ```
