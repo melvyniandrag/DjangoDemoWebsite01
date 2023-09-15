@@ -8,6 +8,7 @@ This repo is associated with The Linux Workbook, a class on Udemy.
 
 ### Install with apt
 ```
+$ sudo apt update
 $ sudo apt install apache2 libapache2-mod-wsgi-py3
 $ sudo apt install python3-dev
 $ sudo apt install python3-pip python3.11-venv
