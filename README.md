@@ -4,6 +4,8 @@ This is the first of a series of websites you can easily deploy on digital ocean
 
 This repo is associated with The Linux Workbook, a class on Udemy.
 
+In this class you will be deploying a website using the super famous Apache2 webserver and the wildly popular Django Backend Web Framework. It's so easy to deploy if you follow the instructions below exactly and watch the video . Then you can start tweaking the code, go learn more about Django, go learn more about Apache etc.. Hope you appreciate this demo!!
+
 ## Instructions
 
 ### Check if webserver is running #1
